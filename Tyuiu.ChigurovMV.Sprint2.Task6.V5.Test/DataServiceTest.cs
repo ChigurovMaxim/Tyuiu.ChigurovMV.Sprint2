@@ -17,6 +17,7 @@ namespace Tyuiu.ChigurovMV.Sprint2.Task6.V5.Test
             Assert.AreEqual("валет", ds.FindCardValue(11));
             Assert.AreEqual("дама", ds.FindCardValue(12));
             Assert.AreEqual("король", ds.FindCardValue(13));
+            Assert.AreEqual("туз", ds.FindCardValue(14));
         }
     }
 }
